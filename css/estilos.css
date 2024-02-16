@@ -59,13 +59,13 @@ h1 {
         transform: scale(0.9);
         transition: 0.7s ease-in-out all;
 }
-.contenedor img.visible{
-    opacity: 1;
-    transform: scale(1);
-}
-.izquierda{
+.contenedor img.izquierda{
     transform: translateX(-100px);
 }
-.derecha{
+.contenedor img.derecha{
     transform: translateX(100px);
+}
+.contenedor img.visible{
+    opacity: 1;
+    transform: scale(1) translateX(0);
 }
