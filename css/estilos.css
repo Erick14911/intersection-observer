@@ -63,3 +63,9 @@ h1 {
     opacity: 1;
     transform: scale(1);
 }
+.izquierda{
+    transform: translateX(-100px);
+}
+.derecha{
+    transform: translateX(100px);
+}
