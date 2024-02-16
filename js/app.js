@@ -47,6 +47,7 @@ window.addEventListener('load', () => {
 
   //Intersection Observer
   const imagen1 = document.getElementById('imagen1');
+  const imagen2 = document.getElementById('imagen2');
   const cargarImagen = (entradas, observador) => {
     entradas.forEach((entrada ) => {
       if(entrada.isIntersecting){
@@ -62,6 +63,7 @@ window.addEventListener('load', () => {
     threshold: 1.0
   });
   observador.observe(imagen1);
+  observador.observe(imagen2);
 });
 
 
